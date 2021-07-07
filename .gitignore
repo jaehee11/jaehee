@@ -1,0 +1,24 @@
+# ignore All
+/*
+!.gitignore
+
+# exception .c .h .cydwr .cyprj
+!/CE224406_PSoC4_UART_Polling.cydsn
+/CE224406_PSoC4_UART_Polling.cydsn/*
+!/CE224406_PSoC4_UART_Polling.cydsn/*.c
+!/CE224406_PSoC4_UART_Polling.cydsn/*.s
+!/CE224406_PSoC4_UART_Polling.cydsn/*.h
+!/CE224406_PSoC4_UART_Polling.cydsn/*.cydwr
+!/CE224406_PSoC4_UART_Polling.cydsn/*.cyprj
+
+# exception .cysch
+!/CE224406_PSoC4_UART_Polling.cydsn/TopDesign
+/CE224406_PSoC4_UART_Polling.cydsn/TopDesign/*
+!/CE224406_PSoC4_UART_Polling.cydsn/TopDesign/*.cysch
+
+#exception .hex
+!/CE224406_PSoC4_UART_Polling.cydsn/CortexM0
+/CE224406_PSoC4_UART_Polling.cydsn/CortexM0/*
+!/CE224406_PSoC4_UART_Polling.cydsn/CortexM0/ARM_GCC_541
+/CE224406_PSoC4_UART_Polling.cydsn/CortexM0/ARM_GCC_541/Debug/*
+!/CE224406_PSoC4_UART_Polling.cydsn/CortexM0/ARM_GCC_541/Debug/*.hex
